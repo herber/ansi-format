@@ -33,7 +33,7 @@ An array or a string representing styles
 ###### Supported styles
 
 | Name | Value |
-| --- | --- | --- |
+| --- | --- |
 | reset | `\u001b[0m` |
 | bold | `\u001b[1m` |
 | italic | `\u001b[3m` |
