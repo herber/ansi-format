@@ -28,5 +28,13 @@
 		"codecov": "^3.0.0",
 		"formatted": "^1.0.0",
 		"jest": "^22.1.4"
+	},
+	"jest": {
+		"collectCoverage": true,
+		"coverageDirectory": "./coverage",
+		"coverageReporters": [
+			"lcov",
+			"text"
+		]
 	}
 }
