@@ -1,0 +1,32 @@
+{
+	"name": "ansi-format",
+	"version": "1.0.0",
+	"description": "Simple ansi formatter",
+	"license": "MIT",
+	"repository": "herber/ansi-format",
+	"author": {
+		"name": "Tobias Herber",
+		"email": "tobihrbr@gmail.com",
+		"url": "tobihrbr.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "formatted && jest"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {
+		"ansi-style-codes": "^1.0.0"
+	},
+	"devDependencies": {
+		"codecov": "^3.0.0",
+		"formatted": "^1.0.0",
+		"jest": "^22.1.4"
+	}
+}
